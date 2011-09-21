@@ -1,0 +1,173 @@
+﻿!!! 5
+%html{"xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Montgomery Studios | Web Design, with Style and Standards
+    %meta{:content => "Michael Montgomery | montgomerystudios.com", :name => "author"}/
+    %meta{:content => "copyright 2005-2011 Montgomery Studios, Inc.", :name => "copyright"}/
+    = stylesheet_link_tag("/stylesheets/studios.css")
+    = stylesheet_link_tag("/stylesheets/studios.css")
+    %link{:href => "/stylesheets/print.css", :media => "print", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
+    = javascript_include_tag("http://code.jquery.com/jquery-1.5.min.js", "/javascripts/modernizr-1.6.min.js", "/javascripts/application.js")
+  %body#montgomerystudios_com.default
+    #container
+      %p#accessibility
+        %a{:accesskey => "0", :href => "#content", :title => "Skip to content"} Go to content
+      #header.container_12
+        %h1#logo
+          %a{:href => "/", :rel => "home"}
+            %img{:alt => "Montgomery Studios logo", :src => "/images/64.png", :title => "Home Page"}/
+        %ul#nav
+          %li
+            %a#n1{:accesskey => "1", :href => "/", :title => "Home page"} Home
+          %li
+            %a#n2{:accesskey => "2", :href => "/portfolio/", :title => "Portfolio and prior experience"} Portfolio
+          %li
+            %a#n3{:accesskey => "3", :href => "/projects/"} Projects
+          %li
+            %a#n4{:accesskey => "4", :href => "/contact/", :title => "Contact page"} Contact
+      .clear  
+      #content.container_12
+        #feature
+          %h2
+            %a{:href => "/portfolio/clarke-silverglate"} Featured Case Study
+          .preview.grid_6
+            %a{:href => "/portfolio/clarke-silverglate"}
+              %img{:alt => "Clarke, Silverglate, P.A. preview image", :src => "/images/67.jpg"}/
+          .grid_6
+            %h4 Law firm website redesign
+            %h3
+              %a{:href => "/portfolio/clarke-silverglate"} Clarke, Silverglate, P.A.
+            %p
+              %a{:href => "/portfolio/clarke-silverglate"} Clarke, Silverglate, P.A.
+              is a top-tier law firm in Miami, but their website needed a full refresh.
+            %p The new design presents clear information with a complementary visual design; code that is lean, clean and valid; and a web-based content management system for easy maintenance and updating.
+            %p
+              Implementation presented an added challenge: their
+              %em former
+              webhost had announced they were departing the webhosting business.
+              %a{:href => "/articles/clarke-silverglate"} Read more...
+          %blockquote
+            %p “Our website is a work of art. It's simple, elegant and effective. We've had nothing but rave reviews about it.”
+            %p
+              %cite Spencer Silverglate
+              %a{:href => "http://cspalaw.com/"} Clarke, Silverglate, P.A.
+          #completed.grid_12
+            %dl.grid_3.alpha
+              %dt Content
+              %dd Information Architecture,
+              %dd
+                Markup (
+                %acronym{:title => "Extensible HyperText Markup Language"}> XHTML
+                )
+            %dl.grid_3
+              %dt Style
+              %dd Visual Design,
+              %dd
+                Cascading Style Sheets (
+                %acronym{:title => "Cascading Style Sheets"}> CSS
+                )
+            %dl.grid_3
+              %dt Behavior
+              %dd jQuery JavaScript framework
+            %dl.grid_3.omega
+              %dt Consulting
+              %dd ExpressionEngine content management system,
+              %dd User testing
+          .clear  
+        #ancillary
+          #description.vcard.grid_4
+            %h2
+              Web Design, with Style
+              = succeed "&#160;Standards." do
+                %span.alt &
+            %p
+              %a.org.url{:href => "http://montgomerystudios.com"} Montgomery Studios
+              is a “company of one”—the freelance web design business of
+              = succeed "," do
+                %a.fn.email{:href => "mailto:m@montgomerystudios.com"} Michael Montgomery
+              who specializes in building and consulting for websites with web standards.
+            %p
+              My work uses only the best ingredients, including web standards such as
+              %acronym{:title => "Extensible HyperText Markup Language"} XHTML
+              and
+              = succeed "," do
+                %acronym{:title => "Cascading Style Sheets"} CSS
+              semantic markup and clean code, for fast loading and light weight.
+            %p.adr
+              %em
+                Web design with a global perspective. Based in
+                = succeed "," do
+                  %span.locality Fort Lauderdale
+                = succeed "." do
+                  %span.region Florida
+          #portfolio.grid_4
+            %h2
+              %a{:href => "/portfolio/"} Portfolio
+            %ul
+              %li
+                %a{:href => "/portfolio/clarke-silverglate"}
+                  %img{:alt => "Clarke Silverglate & Campbell", :height => "90", :src => "/images/70.png", :width => "90"}/
+              %li
+                %a{:href => "/portfolio/st-paul"}
+                  %img{:alt => "St. Paul UMC", :height => "90", :src => "/images/78.png", :width => "90"}/
+              %li
+                %a{:href => "/portfolio/ecc"}
+                  %img{:alt => "Everglades Community Church", :height => "90", :src => "/images/72.png", :width => "90"}/
+              %li
+                %a{:href => "/portfolio/photos-by-kat"}
+                  %img{:alt => "Photos By Kat", :height => "90", :src => "/images/75.png", :width => "90"}/
+              %li
+                %a{:href => "/portfolio/day-spa"}
+                  %img{:alt => "Day at the Spa", :height => "90", :src => "/images/71.png", :width => "90"}/
+              %li
+                %a{:href => "/portfolio/gil-williamson"}
+                  %img{:alt => "Gil Williamson", :height => "90", :src => "/images/74.png", :width => "90"}/
+          #projects.grid_4
+            %h2
+              %a{:href => "/projects/"} Projects
+            %ul
+              %li
+                %a{:href => "/projects/skeptics"}
+                  %img{:alt => "Web Standards for Skeptics", :height => "90", :src => "/images/77.png", :width => "90"}/
+              %li
+                %a{:href => "/projects/godbit"}
+                  %img{:alt => "Godbit", :height => "90", :src => "/images/73.png", :width => "90"}/
+              %li
+                %a{:href => "/projects/barcamp-miami"}
+                  %img{:alt => "Barcamp Miami", :height => "90", :src => "/images/69.png", :width => "90"}/
+              %li
+                %a{:href => "/projects/refresh-miami"}
+                  %img{:alt => "Refresh Miami", :height => "90", :src => "/images/76.png", :width => "90"}/
+          #ingredients.grid_12
+            %dl.grid_3.alpha
+              %dt POSH
+              %dd
+                Plain Old Semantic Markup (
+                %acronym{:title => "Extensible HyperText Markup Language"}> XHTML
+                )
+            %dl.grid_3
+              %dt SEO
+              %dd Baked in!
+            %dl.grid_3
+              %dt Accessibility
+              %dd It's in there.
+            %dl.grid_3.omega
+              %dt Flexible Style
+              %dd Looks good on screen, print & mobile.
+          .clear  
+      #footer
+        #contacts.container_12
+          %h2.grid_12
+            %a{:href => "/contacts/"} Contacts
+          .vcard.grid_12
+            %a.fn.org.url{:href => "http://montgomerystudios.com"} Montgomery Studios
+            %p
+              Phone:
+              %span.tel 954-903-4742
+            %p
+              E-mail:
+              %span.email
+                %a{:href => "mailto:m@montgomerystudios.com"} m@montgomerystudios.com
+        .clear  
+      %p.notice © Montgomery Studios 2005-2011

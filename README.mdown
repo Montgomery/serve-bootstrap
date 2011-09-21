@@ -1,3 +1,7 @@
+# Montgomery Studios: version 2.1
+
+Re-code, redesign and refresh of Montgomery Studios - using Serve Bootstrap to aid in rapid design with Haml, Sass and Compass
+
 # Serve Bootstrap
 
 ## A simple Serve starting point

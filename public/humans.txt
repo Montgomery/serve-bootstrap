@@ -1,11 +1,11 @@
 /* the humans responsible - humanstxt.org */
 
 /* TEAM */
-  Name: 
-  Title: 
-  Site: 
-  Twitter: 
-  Location: 
+  Name: Michael Montgomery
+  Title: President
+  Site: montgomerystudios.com
+  Twitter: @Montgomery
+  Location: Florida, USA
 
 /* THANKS */
   Name: URL
