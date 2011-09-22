@@ -267,6 +267,22 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
+.font-helvetica, body {
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-times {
+  font-family: times, "Times New Roman", Georgia, sans-serif;
+}
+
+.font-georgia {
+  font-family: Georgia, times, "Times New Roman", sans-serif;
+}
+
 .grid-pie-clearfix, .grid-container, .container, .nested-grid-container, .grid-block, .grid-full, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .container .content, p.last, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
   *zoom: 1;
 }

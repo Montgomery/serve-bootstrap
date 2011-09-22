@@ -3,7 +3,7 @@
 #container
   %p#accessibility
     %a{:accesskey => "0", :href => "#content", :title => "Skip to content"} Go to content
-  #header.container_12
+  #header.grid-container
     %h1#logo
       %a{:href => "/", :rel => "home"}
         %img{:alt => "Montgomery Studios logo", :src => "/images/64.png", :title => "Home Page"}/
@@ -17,14 +17,14 @@
       %li
         %a#n4{:accesskey => "4", :href => "/contact/", :title => "Contact page"} Contact
   .clear  
-  #content.container_12
+  #content.grid-container
     #feature
       %h2
         %a{:href => "/portfolio/clarke-silverglate"} Featured Case Study
-      .preview.grid_6
+      .preview.grid-6
         %a{:href => "/portfolio/clarke-silverglate"}
           %img{:alt => "Clarke, Silverglate, P.A. preview image", :src => "/images/67.jpg"}/
-      .grid_6
+      .grid-6
         %h4 Law firm website redesign
         %h3
           %a{:href => "/portfolio/clarke-silverglate"} Clarke, Silverglate, P.A.
@@ -43,38 +43,38 @@
         %p
           %cite Spencer Silverglate
           %a{:href => "http://cspalaw.com/"} Clarke, Silverglate, P.A.
-      #completed.grid_12
-        %dl.grid_3.alpha
+      #completed.grid-12
+        %dl.grid-3.alpha
           %dt Content
           %dd Information Architecture,
           %dd
             Markup (
             %acronym{:title => "Extensible HyperText Markup Language"}> XHTML
             )
-        %dl.grid_3
+        %dl.grid-3
           %dt Style
           %dd Visual Design,
           %dd
             Cascading Style Sheets (
             %acronym{:title => "Cascading Style Sheets"}> CSS
             )
-        %dl.grid_3
+        %dl.grid-3
           %dt Behavior
           %dd jQuery JavaScript framework
-        %dl.grid_3.omega
+        %dl.grid-3.omega
           %dt Consulting
           %dd ExpressionEngine content management system,
           %dd User testing
       .clear  
     #ancillary
-      #description.vcard.grid_4
+      #description.vcard.grid-4
         %h2
           Web Design, with Style
           = succeed "&#160;Standards." do
             %span.alt &
         %p
           %a.org.url{:href => "http://montgomerystudios.com"} Montgomery Studios
-          is a "company of one"--the freelance web design business of
+          is a "company of one,"the freelance web design business of
           = succeed "," do
             %a.fn.email{:href => "mailto:m@montgomerystudios.com"} Michael Montgomery
           who specializes in building and consulting for websites with web standards.
@@ -92,7 +92,7 @@
               %span.locality Fort Lauderdale
             = succeed "." do
               %span.region Florida
-      #portfolio.grid_4
+      #portfolio.grid-4
         %h2
           %a{:href => "/portfolio/"} Portfolio
         %ul
@@ -114,7 +114,7 @@
           %li
             %a{:href => "/portfolio/gil-williamson"}
               %img{:alt => "Gil Williamson", :height => "90", :src => "/images/74.png", :width => "90"}/
-      #projects.grid_4
+      #projects.grid-4
         %h2
           %a{:href => "/projects/"} Projects
         %ul
@@ -130,28 +130,28 @@
           %li
             %a{:href => "/projects/refresh-miami"}
               %img{:alt => "Refresh Miami", :height => "90", :src => "/images/76.png", :width => "90"}/
-      #ingredients.grid_12
-        %dl.grid_3.alpha
+      #ingredients.grid-12
+        %dl.grid-3.alpha
           %dt POSH
           %dd
             Plain Old Semantic Markup (
             %acronym{:title => "Extensible HyperText Markup Language"}> XHTML
             )
-        %dl.grid_3
+        %dl.grid-3
           %dt SEO
           %dd Baked in!
-        %dl.grid_3
+        %dl.grid-3
           %dt Accessibility
           %dd It's in there.
-        %dl.grid_3.omega
+        %dl.grid-3.omega
           %dt Flexible Style
           %dd Looks good on screen, print & mobile.
       .clear  
   #footer
     #contacts.container_12
-      %h2.grid_12
+      %h2.grid-12
         %a{:href => "/contacts/"} Contacts
-      .vcard.grid_12
+      .vcard.grid-12
         %a.fn.org.url{:href => "http://montgomerystudios.com"} Montgomery Studios
         %p
           Phone:
