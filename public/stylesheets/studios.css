@@ -593,6 +593,10 @@ code {
   font-family: "Andale Mono", "Lucida Console", Consolas, monospace;
 }
 
+em {
+  font-style: italic;
+}
+
 html > body {
   font-size: 12px;
 }
@@ -721,16 +725,15 @@ q:after {
   background: #1b2a5e;
   text-decoration: underline;
 }
-#nav li:hover {
-  background: #1b2a5e;
-  text-decoration: underline;
-}
 
 body.default a#n1, body.portfolio a#n2, body.projects a#n3, body#contact a#n4 {
   text-decoration: underline;
 }
 
-h2 a, h3 a {
+#content a {
+  text-decoration: underline;
+}
+#content h2 a, #content h3 a {
   text-decoration: none;
 }
 
@@ -868,6 +871,9 @@ cite abbr, cite acronym, cite .caps {
 #ancillary li img {
   float: left;
 }
+#ancillary ul {
+  margin-left: 0;
+}
 
 .zemContactForm {
   font-size: 1.1em;
@@ -876,8 +882,12 @@ cite abbr, cite acronym, cite .caps {
   width: 10em;
 }
 
-#footer p {
-  font-size: 0.9em;
+#footer a {
+  color: #cccccc;
+  text-decoration: underline;
+}
+#footer h2 a {
+  text-decoration: none;
 }
 
 #contacts {
@@ -886,9 +896,6 @@ cite abbr, cite acronym, cite .caps {
   border-bottom: none;
   margin-bottom: 0.1em;
 }
-#contacts a {
-  color: #cccccc;
-}
 #contacts h2 {
   border-bottom: none;
   margin-bottom: 0.1em;
@@ -896,6 +903,15 @@ cite abbr, cite acronym, cite .caps {
 #contacts p {
   float: right;
   margin-left: 20px;
+  text-align: right;
+}
+
+.alpha {
+  margin-left: 0;
+}
+
+.omega {
+  margin-right: 0;
 }
 
 .alt {

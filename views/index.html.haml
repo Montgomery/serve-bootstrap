@@ -2,21 +2,21 @@
 
 #container
   %p#accessibility
-    %a{:accesskey => "0", :href => "#content", :title => "Skip to content"} Go to content
+    %a{:href => "#content", :title => "Skip to content"} Go to content
   #header.grid-container
     %h1#logo
       %a{:href => "/", :rel => "home"}
         %img{:alt => "Montgomery Studios logo", :src => "/images/64.png", :title => "Home Page"}/
     %ul#nav
       %li
-        %a#n1{:accesskey => "1", :href => "/", :title => "Home page"} Home
+        %a#n1{:href => "/", :title => "Home page"} Home
       %li
-        %a#n2{:accesskey => "2", :href => "/portfolio/", :title => "Portfolio and prior experience"} Portfolio
+        %a#n2{:href => "/portfolio/"} Portfolio
       %li
-        %a#n3{:accesskey => "3", :href => "/projects/"} Projects
+        %a#n3{:href => "/projects/"} Projects
       %li
-        %a#n4{:accesskey => "4", :href => "/contact/", :title => "Contact page"} Contact
-  .clear  
+        %a#n4{:href => "/contact/"} Contact
+  .clearfix
   #content.grid-container
     #feature
       %h2
@@ -39,7 +39,7 @@
           %a{:href => "/articles/clarke-silverglate"} Read more...
       %blockquote
         :markdown
-          &#8220;Our website is a work of art. It's simple, elegant and effective. We've had nothing but rave reviews about it.&#8221;
+          &#8220;Our website is a work of art. It&rsquo;s simple, elegant and effective. We&rsquo;ve had nothing but rave reviews about it.&#8221;
         %p
           %cite Spencer Silverglate
           %a{:href => "http://cspalaw.com/"} Clarke, Silverglate, P.A.
@@ -65,7 +65,7 @@
           %dt Consulting
           %dd ExpressionEngine content management system,
           %dd User testing
-      .clear  
+      .clearfix  
     #ancillary
       #description.vcard.grid-4
         %h2
@@ -74,7 +74,7 @@
             %span.alt &
         %p
           %a.org.url{:href => "http://montgomerystudios.com"} Montgomery Studios
-          is a "company of one,"the freelance web design business of
+          is a "company of one," the freelance web design business of
           = succeed "," do
             %a.fn.email{:href => "mailto:m@montgomerystudios.com"} Michael Montgomery
           who specializes in building and consulting for websites with web standards.
@@ -146,9 +146,9 @@
         %dl.grid-3.omega
           %dt Flexible Style
           %dd Looks good on screen, print & mobile.
-      .clear  
+      .clearfix  
   #footer
-    #contacts.container_12
+    #contacts.grid-container
       %h2.grid-12
         %a{:href => "/contacts/"} Contacts
       .vcard.grid-12
@@ -160,5 +160,5 @@
           E-mail:
           %span.email
             %a{:href => "mailto:m@montgomerystudios.com"} m@montgomerystudios.com
-    .clear  
-  %p.notice © Montgomery Studios 2005-2011
+    .clearfix  
+  %p.notice &copy; Montgomery Studios 2005-2011
